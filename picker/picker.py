@@ -36,3 +36,5 @@ def monitoring_keyboard():
 
 threading.Thread(target=monitoring_mouse).start()
 threading.Thread(target=monitoring_keyboard).start()
+print("monitoring the mouse and keyboard")
+
